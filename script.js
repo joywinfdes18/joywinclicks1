@@ -7,7 +7,7 @@ document.getElementById("spinButton").addEventListener("click", function () {
   }
 
   // Generate a random amount between 190 and 280
-  const randomAmount = Math.floor(Math.random() * (280 - 190 + 1)) + 190;
+  const randomAmount = Math.floor(Math.random() * (250 - 190 + 1)) + 190;
   
   // Randomly select an emoji
   const emojis = ["💸", "🎉", "🌟", "🏆"];
